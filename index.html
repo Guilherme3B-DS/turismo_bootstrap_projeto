@@ -7,10 +7,41 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="./CSS/style.css" rel="stylesheet">
   <title>IntegraWorld</title>
+
+  <button class="navbar-toggler" 
+  type="button" 
+  data-bs-toggle="collapse" 
+  data-bs-target="#menu">
+  <span class="navbar-toggler-icon">
+  </span>
+</button>
+
+  <div class="collapse navbar-collapse" id="menu">
+  <!-- links do menu aqui -->
+</div>
+
 </head>
 
 <body>
-  
+  <button class="navbar-toggler"
+
+  type="button"
+
+  data-bs-toggle="collapse"
+
+  data-bs-target="#menu">
+  <span class="navbar-toggler-icon">
+  </span>
+
+  <div class="collapse navbar-collapse"
+
+  id="menu">
+
+  <!-- links do menu aqui -->
+
+</div>
+
+</button>
   <nav class="navbar navbar-expand-lg
   bg-dark navbar-dark">
     <div class="container">
@@ -108,9 +139,11 @@
 
           
                 <p class="card-text">Suas estruturas deslubrantes e montanhas naturais!</p>
-                <a href="index.html">
-                  <button class="btn btn-primary">Ver detalhes</button> 
-                </a>
+                <button class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#modalMuchu">
+                    Saiba mais 
+                  </button>
               </div>
             </div>
           
@@ -131,9 +164,11 @@
                   </span>
 
                 <p class="card-text">Suas ondas cristalinas e construlções marcantes</p>
-                <a href="index.html">
-                  <button class="btn btn-primary">Ver detalhes</button> 
-                </a>
+                <button class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#modalSantorini">
+                    Saiba mais 
+                  </button>
               </div>
             </div>
           
@@ -151,10 +186,14 @@
                   <span class="badge bg-success">
                   Mais visitado                  
                   </span>
-                <p class="card-text">Seu grande lago e montanhas naturais são perfeitos!</p>
-                <a href="index.html">
-                <button class="btn btn-primary">Ver detalhes</button> 
-              </a>
+                <p class="card-text">Seu grande e montanhas naturais são perfeitos!</p>
+                <button class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#modalPatagônia">
+                    Saiba mais 
+                  </button>
+
+
               </div>
             </div>
           
@@ -162,8 +201,61 @@
           
           </div>
         
+          <div class="modal fade" id="modalPatagônia">
+          <div class="modal-dialog">
+          <div class="modal-content">
+          <div class="modal-header">
+        <h5 class="modal-title">Patagônia</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                  <p>Sua maravilhosa vista e lago gelado é um dos motivos mais plaúsiveis para visitar este lugar. </p>
+          
+                </div>
+              <div class="modal-footer">
+               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+             </div>
+             </div>
+            </div>
+          </div>    
 
           
+          <div class="modal fade" id="modalSantorini">
+            <div class="modal-dialog">
+            <div class="modal-content">
+            <div class="modal-header">
+          <h5 class="modal-title">Santorini</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>As construções belas e harmônicas.  </p>
+            
+                  </div>
+                <div class="modal-footer">
+                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+               </div>
+               </div>
+              </div>
+            </div>    
+  
+            <div class="modal fade" id="modalMuchu">
+              <div class="modal-dialog">
+              <div class="modal-content">
+              <div class="modal-header">
+            <h5 class="modal-title">Machu Picchu</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                      <p>Suas grandes montanhas chamativas e estruturas as quais escandalisam beleza!!! </p>
+              
+                    </div>
+                  <div class="modal-footer">
+                   <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                 </div>
+                 </div>
+                </div>
+              </div>    
+
       </section>
       <div class="container my-5">
       <div class="alert alert-warning">
@@ -187,8 +279,113 @@ Começe a planejar aqui!
 
 </section>
       <BR>
-      
-      
+    
+        <div class="container my-5">
+
+          <h2 class="text-center mb-4">
+        
+            Perguntas Frequentes        
+          </h2>
+        
+          <div class="accordion" id="faq">
+        
+            <div class="accordion-item">
+
+              <h2 class="accordion-header">
+            
+                <button class="accordion-button"
+            
+                  data-bs-toggle="collapse"
+            
+                  data-bs-target="#pergunta1">
+            
+                  Qual o melhor período para viajar?
+            
+              </button>
+            
+              </h2>
+              <div id="pergunta1"
+                class="accordion-collapse collapse"
+                data-bs-parent="#faq">
+                <div class="accordion-body">
+            
+                  O melhor período depende do destino            
+                  e das condições climáticas.
+            
+                </div>
+            
+              </div>
+            
+            </div>
+
+
+            <div class="accordion-item">
+
+              <h2 class="accordion-header">
+            
+                <button class="accordion-button"
+            
+                  data-bs-toggle="collapse"
+            
+                  data-bs-target="#pergunta2">
+            
+                  Qual o lugar mais adequado para férias tranquilas?
+            
+              </button>
+            
+              </h2>
+              <div id="pergunta2"
+                class="accordion-collapse collapse"
+                data-bs-parent="#faq">
+                <div class="accordion-body">
+            
+                  O melhor lugar para isto é Santorini, uma cidade linda que muitas pessoas adoram e voltam cheio de vontade de mais férias. Muitos até pedem em casamento seus pares por ser um lugar único!
+            
+                </div>
+            
+              </div>
+            
+            </div>
+
+
+            <div class="accordion-item">
+
+              <h2 class="accordion-header">
+            
+                <button class="accordion-button"
+            
+                  data-bs-toggle="collapse"
+            
+                  data-bs-target="#pergunta3">
+            
+                  Quero pedir minha noiva em casamento, onde pode ser mais adequado e como posso saber mais de casamentos?
+        
+            
+              </button>
+            
+              </h2>
+              <div id="pergunta3"
+                class="accordion-collapse collapse"
+                data-bs-parent="#faq">
+                <div class="accordion-body">
+            
+                  Para um pedido de casamento, um ambiente perfeito deixa a ocasião mais especial. Para isso, acredito que Santorini seja um lugar lindo para marcar este grande laço eterno e momento. Já para saber mais de casamento, Info Clothing é a escolha certa!
+            
+                </div>
+            
+              </div>
+            
+            </div>
+
+
+
+          </div>
+       </div>
+
+       
+
+
+        
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 

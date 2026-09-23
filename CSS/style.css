@@ -50,6 +50,8 @@
   
     border-bottom: none;
   
+    color:aqua;
+
     background-color: #ffffff;  
   }
   
@@ -59,9 +61,12 @@
 .modal-body {
 
     padding: 30px;
+
     font-size: 1rem; 
+
     line-height: 1.7;
     
+    text-align: justify;
   
   }
   
@@ -85,7 +90,7 @@
   
   .modal-footer {
   
-    padding: 15px 25px;
+    padding: 10px 25px;
   
     border-top: none;
   
@@ -98,12 +103,12 @@
   
   .modal .btn {
   
-    border-radius: 8px;
+    border-radius: 10px;
   
     color: rgb(0, 0, 0);
 
-    background-color: #e9ecef;
-
+    background-color: #e9ecef00;
+    border-color: rgb(0, 0, 0);
     padding: 8px 20px;
   
   }
@@ -259,5 +264,8 @@
   .modal-title3 {
     font-size: 1.5rem;
     font-weight: 700;
-    color: rgb(32, 94, 35)
+    color: rgb(32, 94, 35);
+    text-align: justify;
+    
   }
+

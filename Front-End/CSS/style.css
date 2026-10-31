@@ -1,0 +1,435 @@
+.card-img-top {
+  height: 220px;
+  width: auto;
+}
+
+.carousel-item img {
+
+  height: 500px;
+  object-fit: cover;
+
+}
+
+.card {
+  height: 100%;
+  transition: 0.3s;
+}
+
+.card:hover {
+
+  transform: translateY(-5px);
+}
+
+/* Caixa principal do Modal */
+
+.modal-content {
+
+  border: none;
+  border-radius: 18px;
+  overflow: hidden;
+
+
+  /* Sombra ao redor da janela */
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+
+
+/* -----------------------------------------------------​
+  
+     CABEÇALHO DO MODAL​
+  
+  ----------------------------------------------------- */
+
+.modal-header {
+
+  padding: 20px 25px;
+
+
+  /* Remove a linha padrão do Bootstrap */
+
+  border-bottom: none;
+
+  color: aqua;
+
+  background-color: #ffffff;
+}
+
+
+/* Corpo do Modal */
+
+.modal-body {
+
+  padding: 30px;
+
+  font-size: 1rem;
+
+  line-height: 1.7;
+
+  text-align: justify;
+
+}
+
+
+
+/* Imagem dentro do Modal */
+
+.modal-body img {
+
+  width: 510px;
+
+  border-radius: 12px;
+
+  margin-bottom: 20px;
+
+  height: 300px;
+}
+
+
+/* Rodapé do Modal */
+
+.modal-footer {
+
+  padding: 10px 25px;
+
+  border-top: none;
+
+  background-color: #f8f9fa;
+
+}
+
+
+/* Botões do Modal */
+
+.modal .btn {
+
+  border-radius: 10px;
+
+  color: rgb(0, 0, 0);
+
+  background-color: #e9ecef00;
+  border-color: rgb(0, 0, 0);
+  padding: 8px 20px;
+
+}
+
+/* -----------------------------------------------------​
+
+   CAIXA PRINCIPAL​
+
+   ----------------------------------------------------- */
+
+/* Cria uma caixa separada para o Accordion. O max-width evita que fique muito largo. */
+
+.faq-box {
+
+  max-width: 850px;
+  /* Centraliza a caixa */
+
+  margin: 0 auto;
+
+  /* Espaçamento interno */
+
+  padding: 35px;
+
+  /* Fundo da caixa */
+
+  background-color: #ffffff;
+  /* Cantos arredondados */
+
+  border-radius: 18px;
+  /* Borda */
+
+  border: 1px solid #e9ecef;
+  /* Sombra para criar sensação de elevação */
+
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+
+/* -----------------------------------------------------​
+
+   ÁREA DO ACCORDION​
+
+   ----------------------------------------------------- */
+
+.faq-box .accordion {
+
+  width: 100%;
+
+}
+
+/* -----------------------------------------------------​
+  
+     CADA PERGUNTA​
+  
+     ----------------------------------------------------- */
+
+.faq-box .accordion-item {
+
+  /* Remove a borda padrão */
+
+  border: none;
+
+  /* Espaço entre as perguntas */
+
+  margin-bottom: 15px;
+
+  /* Arredonda cada "gaveta" */
+
+  border-radius: 12px;
+
+  /* Mantém o conteúdo dentro do arredondamento */
+
+  overflow: hidden;
+
+  /* Pequena sombra em cada item */
+
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+
+}
+
+
+/* EFEITO AO CLICAR */
+
+/* Remove o contorno padrão que aparece quando o botão recebe foco. */
+
+.faq-box .accordion-button:focus {
+
+  box-shadow: none;
+
+}
+
+/* ÁREA DA RESPOSTA */
+
+.faq-box .accordion-body {
+
+  /* Espaçamento interno maior */
+
+  padding: 25px;
+
+  /* Espaçamento entre linhas */
+
+  line-height: 1.7;
+  /* Fundo da resposta */
+
+  background-color: #ffffff;
+
+}
+
+/* BOTÃO DA PERGUNTA */
+
+.faq-box .accordion-button {
+
+  /* Espaçamento interno */
+
+  padding: 20px 22px;
+  /* Tamanho do texto */
+
+  font-size: 1rem;
+  /* Deixa a pergunta em destaque *​/
+  
+    font-weight: 600;
+  
+    /* Cor de fundo */
+
+  background-color: #f8f9fa;
+
+}
+
+/* PERGUNTA ABERTA */
+
+.faq-box .accordion-button:not(.collapsed) {
+
+  background-color: #e9ecef;
+  /* Remove sombra padrão */
+
+  box-shadow: none;
+}
+
+
+/* TITULO DO MODAL */
+
+.modal-title1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: rgb(93, 182, 93);
+
+
+}
+
+.modal-title2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: rgb(49, 129, 219);
+}
+
+.modal-title3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: rgb(32, 94, 35);
+  text-align: justify;
+
+}
+
+
+
+/* AQUI É SOBRE OS LOCAIS */
+
+.apresentacao {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  font-weight: 700;
+
+}
+
+.card-text {
+  text-align: justify;
+  font-size: 90%;
+  font-weight: 400;
+
+}
+
+
+.Preparado {
+  background-color: rgb(254, 255, 255);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 700px;
+  height: auto;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.containerprep {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+img {
+  max-width: 100%;
+}
+
+.card-img-top {
+  width: 100%;
+  object-fit: cover;
+}
+
+.row .card {
+  width: 100% !important;
+}
+
+.modal-body img {
+  width: 100%;
+  height: auto;
+}
+
+.Preparado {
+  width: 100%;
+  max-width: 700px;
+}
+
+.containerprep {
+  height: auto;
+  min-height: 200px;
+  padding: 1rem 0;
+}
+
+@media (max-width: 768px) {
+  .carousel-item img {
+    height: 300px;
+  }
+
+  .carousel-caption h2 {
+    font-size: 22px;
+  }
+
+  .carousel-caption p {
+    font-size: 14px;
+  }
+
+  .modal-header,
+  .modal-footer {
+    padding: 12px;
+  }
+
+  .modal-body {
+    padding: 15px;
+  }
+
+  .faq-box {
+    padding: 15px;
+  }
+
+  .faq-box .accordion-body {
+    padding: 15px;
+  }
+
+  .grid.text-center.grid-cols-4 {
+    justify-content: center !important;
+    padding: 0 15px;
+  }
+
+  .grid.text-center.grid-cols-4 > div {
+    flex: 1 1 270px;
+  }
+
+  .card.card-row {
+    width: 100%;
+    max-width: 100% !important;
+  }
+
+  .card-img-start {
+    height: 220px !important;
+    object-fit: cover;
+  }
+
+  .cabecalho {
+    height: 250px !important;
+  }
+
+  body > h3 {
+    position: static !important;
+    margin: 20px 0 10px;
+  }
+
+  .container-cards {
+    height: auto !important;
+    padding: 0 15px 15px;
+  }
+
+  .card1 {
+    width: 100% !important;
+    padding: 15px;
+  }
+
+  .botao {
+    position: static !important;
+    padding: 0 15px 20px;
+  }
+}

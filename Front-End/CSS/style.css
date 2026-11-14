@@ -350,6 +350,32 @@ img {
   object-fit: cover;
 }
 
+.destino-cards .card-body,
+.locais-grid .card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.destino-cards .card-title,
+.locais-grid .card-title {
+  text-align: center;
+}
+
+.destino-cards .card-body .badge {
+  align-self: flex-start;
+}
+
+.destino-cards .card-text,
+.locais-grid .card-text {
+  text-align: justify;
+}
+
+.destino-cards .card-body .btn,
+.locais-grid .card-body .btn {
+  align-self: center;
+  margin-top: auto;
+}
+
 .row .card {
   width: 100% !important;
 }

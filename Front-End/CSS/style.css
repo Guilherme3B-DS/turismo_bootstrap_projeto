@@ -375,6 +375,33 @@ img {
   min-height: 50vh;
 }
 
+.container-cards .card1,
+.container-cards .card2 {
+  height: auto !important;
+  min-height: 280px !important;
+  max-height: none !important;
+}
+
+.containerprep {
+  height: auto !important;
+}
+
+.containerformulario {
+  box-sizing: border-box;
+  height: auto !important;
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+.containerformulario .cardformulario {
+  width: 100%;
+  max-width: 800px;
+}
+
+.containerformulario .form-control {
+  width: 100% !important;
+}
+
 .botao {
   position: static !important;
   top: auto !important;
@@ -424,8 +451,16 @@ img {
   }
 
   .container-cards {
+    flex-direction: column;
+    align-items: stretch;
     height: auto !important;
-    padding: 0 15px 15px;
+    padding: 0 15px 15px !important;
+  }
+
+  .container-cards .card1,
+  .container-cards .card2 {
+    width: 100% !important;
+    min-height: 0 !important;
   }
 
   .card1 {

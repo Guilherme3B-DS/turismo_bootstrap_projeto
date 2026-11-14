@@ -14,44 +14,98 @@
 <body>
 
   
-    <div class="cabecalho"></div>
-     <h3 style="text-align: center; position: relative; top: 90px; font-family: Arial, sans-serif;">Sobre o Destino</h3>
-    <div class="container-cards">
-     <div class="card1">
 
-        
+    <div id="carouselBali" class="carousel slide" data-bs-ride="carousel">
+   
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./IMG/BALITOZITO.jpg" class="d-block w-100" alt="Destino" style="border: solid 3px #1f5e1f">
+        <div class="carousel-caption">
+    
+        </div>
+      </div>
 
-        <h2 style="color: rgb(110, 141, 82);">Bali</h2>
-        <p>Bali é uma ilha da Indonésia conhecida por suas paisagens deslumbrantes, praias paradisíacas e rica cultura. 
-            Com uma mistura única de tradições hinduístas e influências modernas, Bali oferece uma experiência cultural vibrante. 
-            A ilha é famosa por seus templos impressionantes, como o Templo de Uluwatu e o Templo de Tanah Lot, que atraem visitantes de todo o mundo. 
-            Além disso, Bali é um destino popular para surfistas, mergulhadores e amantes da natureza, com suas ondas perfeitas, recifes de corais e florestas tropicais exuberantes. 
-            Com uma atmosfera acolhedora e uma variedade de atividades para todos os gostos, Bali é um destino dos sonhos para quem busca aventura, relaxamento e imersão cultural.</p>
-            <p><small><b>Fonte: Wikipedia</small></b></p>
-     </div>
+      <div class="carousel-item">
+        <img src="./IMG/BALITOZITO2.webp" class="d-block w-100" style="border: solid 3px #1f5e1f">
+        <div class="carousel-caption">
+        </div>
+      </div>
 
 
 
+      <div class="carousel-item">
+        <img src="./IMG/BALITOZITO3.webp" class="d-block w-100" style="border: solid 3px #1f5e1f">
+        <div class="carousel-caption">
+
+        </div>
+      </div>
 
     </div>
-  <div class="botao">
-<a href="./Locais.html" class="btn btn-primary">Voltar</a>
+  </div>
 
-</div>
+  
+
+
+    <h1 style="text-align: center; position: relative; top: 90px;  color: rgb(16, 71, 18)">Bali</h1>
+
+    <br><br><br>
+
+    <div class="container-cards">
+
+        <div class="card1">
+
+
+
+            <h3 style="color: rgb(24, 109, 29); align-items: center; display: flex; justify-content: center;">Sobre Bali</h3>
+            <p>Bali é uma ilha da Indonésia conhecida por suas paisagens deslumbrantes, cultura vibrante e praias paradisíacas. 
+                É um destino popular para turistas que buscam relaxamento, aventura e experiências culturais únicas.  </p>
+            
+            
+        
+            <p><small><b>Fonte: Wikipedia</small></b></p>
+        </div>
+
+        <div class="card2">
+            <h3 style="color: rgb(24, 109, 29); align-items: center; display: flex; justify-content: center;">O que fazer em Bali</h3>
+            <ul>
+                <li>Visite templos como Tanah Lot e Uluwatu, conhecidos pela arquitetura e pelas paisagens ao redor.</li>
+                <li>Explore Ubud e seus terraços de arroz, mercados locais e lojas de artesanato.</li>
+                <li>Aproveite as praias para nadar, relaxar ou, em alguns pontos, experimentar o surfe.</li>
+                <li>Prove pratos da culinária balinesa e conheça apresentações de dança e outras tradições locais.</li>
+            </ul>
+        </div>
+    </div>
+
+
+    
+    <div class="containerprep">
+        <div class="Preparado">
+            <h2>Preparado?</h2>
+
+
+            <p>Escolha seu destino com consiência!</p>
+            <a href="Planejamento.html" class="btn btn-primary btn-lg">
+                Começe a planejar aqui!
+            </a>
+        </div>
+    </div>
+
+    <br><br>
+
+    
+
+    <div class="botao">
+        <a href="./Locais.html" class="btn btn-primary" ;>Voltar</a>
+    </div>
     <style>
-         .cabecalho {
-            background-image: url('IMG/balii.jpg');
-            background-size: cover;
-            background-position: center;
-            height: 60vh;
 
-        }
-
-        .container-cards {
+  .container-cards {
             display: flex;
             justify-content: center;
             align-items: center;
             height: 50vh;
+            padding: 20px;
+            gap: 20px;
         }
 
         .card1 {
@@ -60,7 +114,22 @@
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             width: 100%;
-            height: auto;
+            height: 280px;
+            min-height: 100px;
+            max-height: 350px;
+            text-align: justify;
+
+        }
+
+        .card2 {
+            background-color: rgb(254, 255, 255);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            height: 280px;
+            min-height: 100px;
+            max-height: 350px;
             text-align: justify;
 
         }
@@ -68,18 +137,19 @@
         .p {
             text-align: justify;
             font-size: 34px;
-            font-family: Arial, sans-serif;
         }
+
+
 
         .botao {
             display: flex;
             justify-content: center;
             position: relative;
             top: -85px;
-        
         }
     </style>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
